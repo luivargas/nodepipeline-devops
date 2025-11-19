@@ -25,7 +25,7 @@ jobs:
       - name: Run SonarQube Analysis
         run: |
           sonar-scanner \
-            -Dsonar.projectKey=${{ secrets.SONAR_PROJECT_KEY }} \
+            -Dsonar.projectKey=nodepipeline-devops \
             -Dsonar.sources=. \
-            -Dsonar.host.url=${{ secrets.SONAR_HOST_URL}} \
-            -Dsonar.login=${{ secrets.SONAR_TOKEN }}
+            -Dsonar.host.url=http://54.242.140.157:9000 \
+            -Dsonar.login=sqp_697712de5eeee5d1d188bfef05bad07b9977484d

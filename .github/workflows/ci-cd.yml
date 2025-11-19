@@ -27,5 +27,5 @@ jobs:
           sonar-scanner \
             -Dsonar.projectKey=nodepipeline-devops \
             -Dsonar.sources=. \
-            -Dsonar.host.url=http://54.91.17.153:9000 \
+            -Dsonar.host.url=http://54.160.173.247:9000 \
             -Dsonar.login=sqp_e282f6a3a35ee46d94ae5068c64892df146dc0e7

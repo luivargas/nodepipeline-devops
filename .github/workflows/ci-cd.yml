@@ -1,4 +1,4 @@
-name: CI/CD Pipeline with SonarQube
+name: CI/CD Pipeline with SonarQube teste
 on:
   push:
     branches:
